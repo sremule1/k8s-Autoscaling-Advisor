@@ -1,0 +1,8 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Load variables from .env if present
+
+
+def get_prometheus_url() -> str:
+    return os.getenv("PROMETHEUS_URL", "http://localhost:9090")
