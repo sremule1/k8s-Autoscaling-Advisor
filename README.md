@@ -10,7 +10,8 @@ This project is an experimental **Auto-Scaling Advisor** for Kubernetes workload
 
 ## 📸 Kubernetes Auto-Scaling Screenshot
 <p align="center">
-![Swagger UI](./swagger-ui.png)
+<img width="1480" height="905" alt="image" src="https://github.com/user-attachments/assets/d29940d4-ee95-4dc2-a475-1bc28103d054" />
+
 
 
 ---
@@ -81,5 +82,6 @@ This project represents the first version of that idea.
   2. Calculates simple summaries (average, p95, max).
   3. Returns a JSON response with suggested HPA/VPA values and explanations.
 - Later: add a simple UI and real AI integration.
+
 
 
