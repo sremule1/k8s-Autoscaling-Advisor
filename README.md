@@ -107,6 +107,15 @@ This project represents the first version of that idea.
 
 ---
 
+## Roadmap
+
+- Integrate real Prometheus queries instead of mock data
+- Add YAML export for HPA/VPA manifests
+- Introduce ML/LLM-based advisor for adaptive scaling strategies
+- Support multi-namespace and multi-cluster analysis
+
+---
+
 ## Goals
 
 - Build a small API that:
@@ -114,6 +123,7 @@ This project represents the first version of that idea.
   2. Calculates simple summaries (average, p95, max).
   3. Returns a JSON response with suggested HPA/VPA values and explanations.
 - Later: add a simple UI and real AI integration.
+
 
 
 
